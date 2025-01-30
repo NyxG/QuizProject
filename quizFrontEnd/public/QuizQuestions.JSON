@@ -298,6 +298,51 @@
         ]
     },
     {
+        "question": "Come si passa un valore da un componente padre a un figlio in Angular?",
+        "answers": [
+            {"correctAnswer": "Utilizzando il decoratore @Input"},
+            {"incorrectAnswer": "Utilizzando il decoratore @Output"},
+            {"incorrectAnswer": "Con una variabile globale"},
+            {"incorrectAnswer": "Attraverso il modulo di routing"}
+        ]
+    },
+    {
+        "question": "Come si cattura un evento in Angular in un componente figlio?",
+        "answers": [
+            {"correctAnswer": "Utilizzando il decoratore @Output e un EventEmitter"},
+            {"incorrectAnswer": "Utilizzando il decoratore @Input"},
+            {"incorrectAnswer": "Definendo un modulo separato"},
+            {"incorrectAnswer": "Con una direttiva personalizzata"}
+        ]
+    },
+    {
+        "question": "Quali sono gli stati del ciclo di vita di un componente in Angular?",
+        "answers": [
+            {"correctAnswer": "ngOnInit, ngOnChanges, ngDoCheck, ngAfterViewInit, ngAfterViewChecked, ngOnDestroy"},
+            {"incorrectAnswer": "ngCreate, ngLoad, ngUpdate, ngDestroy"},
+            {"incorrectAnswer": "onStart, onRender, onDestroy"},
+            {"incorrectAnswer": "Init, Render, Destroy"}
+        ]
+    },
+    {
+        "question": "A cosa serve il metodo ngOnInit in Angular?",
+        "answers": [
+            {"correctAnswer": "Viene eseguito dopo che il componente è stato inizializzato e serve per eseguire il codice di setup"},
+            {"incorrectAnswer": "Serve per distruggere il componente"},
+            {"incorrectAnswer": "Esegue il binding degli eventi"},
+            {"incorrectAnswer": "Aggiorna i dati del modulo"}
+        ]
+    },
+    {
+        "question": "Cos'è un Event Binding in Angular?",
+        "answers": [
+            {"correctAnswer": "Una tecnica per collegare eventi dell'interfaccia utente a metodi del componente"},
+            {"incorrectAnswer": "Un modo per inviare richieste HTTP"},
+            {"incorrectAnswer": "Una funzione che gestisce la navigazione"},
+            {"incorrectAnswer": "Un tipo di modulo Angular"}
+        ]
+    },
+    {
         "question": "Come si dichiara un modulo in Angular?",
         "answers": [
             {"correctAnswer": "Un modulo si dichiara utilizzando il decoratore `@NgModule`"},
@@ -331,6 +376,15 @@
             {"incorrectAnswer": "Un pipe è un metodo per navigare tra i componenti"},
             {"incorrectAnswer": "Un pipe è una libreria per il controllo degli errori"},
             {"incorrectAnswer": "Un pipe è un tipo di servizio per l'autenticazione"}
+        ]
+    },
+    {
+        "question": "Come si dichiara una pipe personalizzata in Angular?",
+        "answers": [
+            {"correctAnswer": "Utilizzando il decoratore @Pipe e implementando l'interfaccia PipeTransform"},
+            {"incorrectAnswer": "Creando una nuova classe senza decoratori"},
+            {"incorrectAnswer": "Dichiarando un nuovo servizio"},
+            {"incorrectAnswer": "Implementando il metodo OnInit"}
         ]
     },
     {
