@@ -1,0 +1,22 @@
+@if(quizService.showResults()){
+
+<div class="question-container quiz-finished">
+  <h2 class="question-title score-text">Congratulations!</h2>
+  <h3 class="question-title">
+    You have completed the quiz with
+    <p class="score-text">
+      {{ quizService.correctAnswerCount() }} /
+      {{ quizService.questions().length }}
+    </p>
+    answers right.
+  </h3>
+  <div class="next-button-container">
+    <button class="next-button" (click)="quizService.restartQuiz()">
+      Restart
+    </button>
+  </div>
+</div>
+
+} @if(!quizService.showResults()){
+<app-question></app-question>
+}

@@ -1,0 +1,887 @@
+
+[
+    {
+        "question": "Cos’è il CSS e come viene utilizzato in una pagina web?",
+        "answers": [
+            {"correctAnswer": "Per stilizzare il contenuto di una pagina"},
+            {"incorrectAnswer": "Per aggiungere interattività alla pagina"},
+            {"incorrectAnswer": "Per aggiungere funzionalità di routing"},
+            {"incorrectAnswer": "Per gestire le chiamate API"}
+        ]
+    },
+    {
+        "question": "Qual è la differenza tra `display: flex` e `display: grid`? Quando è meglio usare l'uno rispetto all'altro?",
+        "answers": [
+            {"correctAnswer": "Flexbox è un layout unidimensionale, Grid è bidimensionale"},
+            {"incorrectAnswer": "Flexbox è per layout a colonna, Grid è per layout a riga"},
+            {"incorrectAnswer": "Grid è più semplice da utilizzare rispetto a Flexbox"},
+            {"incorrectAnswer": "Non c'è differenza tra i due"}
+        ]
+    },
+    {
+        "question": "Cos’è una media query e come viene utilizzata per rendere un sito web responsive?",
+        "answers": [
+            {"correctAnswer": "Un metodo per caricare risorse specifiche per il dispositivo"},
+            {"incorrectAnswer": "Una query che verifica la velocità di connessione dell'utente"},
+            {"incorrectAnswer": "Una regola CSS che cambia lo stile in base alla dimensione della finestra"},
+            {"incorrectAnswer": "Una tecnica di animazione per cambiare la risoluzione dello schermo"}
+        ]
+    },
+    {
+        "question": "Cos’è SCSS e quali vantaggi offre rispetto al CSS tradizionale?",
+        "answers": [
+            {"correctAnswer": "SCSS è un pre-processore che permette l'uso di variabili, mixin e funzioni"},
+            {"incorrectAnswer": "SCSS è un linguaggio che permette l'animazione di elementi in modo semplice"},
+            {"incorrectAnswer": "SCSS è una versione semplificata di CSS"},
+            {"incorrectAnswer": "SCSS è un framework per la gestione delle immagini"}
+        ]
+    },
+    {
+        "question": "Cos’è un flex container in CSS?",
+        "answers": [
+            {"correctAnswer": "Un contenitore che utilizza Flexbox per allineare e distribuire gli elementi figli"},
+            {"incorrectAnswer": "Un contenitore che utilizza Grid per allineare gli elementi"},
+            {"incorrectAnswer": "Un contenitore che utilizza la proprietà `position`"},
+            {"incorrectAnswer": "Un contenitore che allinea gli elementi tramite margini automatici"}
+        ]
+    },
+    {
+        "question": "Cosa fa la proprietà `z-index` in CSS?",
+        "answers": [
+            {"correctAnswer": "Determina l'ordine di sovrapposizione degli elementi"},
+            {"incorrectAnswer": "Modifica l'altezza di un elemento"},
+            {"incorrectAnswer": "Indica la posizione di un elemento nel layout"},
+            {"incorrectAnswer": "Definisce l'animazione di un elemento"}
+        ]
+    },
+    {
+        "question": "Cos'è il box model in CSS?",
+        "answers": [
+            {"correctAnswer": "Il box model descrive come gli elementi sono strutturati e spaziati nel layout"},
+            {"incorrectAnswer": "Il box model è una funzione di JavaScript per la gestione dei div"},
+            {"incorrectAnswer": "Il box model è un tipo di selettore CSS"},
+            {"incorrectAnswer": "Il box model è una proprietà che definisce la dimensione di un’immagine"}
+        ]
+    },
+    {
+        "question": "Cosa fa la proprietà `position: absolute` in CSS?",
+        "answers": [
+            {"correctAnswer": "Posiziona un elemento rispetto al suo contenitore più vicino con `position: relative`"},
+            {"incorrectAnswer": "Posiziona un elemento sempre in basso a destra"},
+            {"incorrectAnswer": "Allinea un elemento al centro della pagina"},
+            {"incorrectAnswer": "Posiziona un elemento in base alla sua posizione naturale"}
+        ]
+    },
+    {
+        "question": "Cos’è la proprietà `opacity` in CSS?",
+        "answers": [
+            {"correctAnswer": "Determina la trasparenza di un elemento"},
+            {"incorrectAnswer": "Definisce il colore di sfondo di un elemento"},
+            {"incorrectAnswer": "Stabilisce l'animazione di un elemento"},
+            {"incorrectAnswer": "Controlla il contrasto di un elemento"}
+        ]
+    },
+    {
+        "question": "Cosa sono le pseudo-classi in CSS?",
+        "answers": [
+            {"correctAnswer": "Selettori che permettono di applicare stili a elementi in stati particolari, come `:hover`"},
+            {"incorrectAnswer": "Classi speciali che si applicano solo agli elementi con ID"},
+            {"incorrectAnswer": "Regole che modificano l'ordine degli elementi nel DOM"},
+            {"incorrectAnswer": "Proprietà che rendono invisibili gli elementi"}
+        ]
+    },
+    {
+        "question": "Cos’è JavaScript e in che modo si differenzia da HTML e CSS?",
+        "answers": [
+            {"correctAnswer": "JavaScript è un linguaggio di programmazione utilizzato per interattività"},
+            {"incorrectAnswer": "JavaScript è un linguaggio di stile"},
+            {"incorrectAnswer": "JavaScript è un linguaggio di markup"},
+            {"incorrectAnswer": "JavaScript è utilizzato solo per la gestione dei database"}
+        ]
+    },
+    {
+        "question": "Cos’è una funzione arrow in JavaScript? Fornisci un esempio.",
+        "answers": [
+            {"correctAnswer": "Una funzione definita in modo compatto, utilizzando la sintassi `() => {}`"},
+            {"incorrectAnswer": "Una funzione che può essere eseguita solo in modalità asincrona"},
+            {"incorrectAnswer": "Una funzione che manipola il DOM"},
+            {"incorrectAnswer": "Una funzione che modifica la proprietà `this` in modo dinamico"}
+        ]
+    },
+    {
+        "question": "Cos’è un array in JavaScript e come vengono gestiti gli array multidimensionali?",
+        "answers": [
+            {"correctAnswer": "Un array è una struttura che può contenere più valori, anche di tipi diversi"},
+            {"incorrectAnswer": "Un array è una funzione che permette di manipolare oggetti"},
+            {"incorrectAnswer": "Gli array multidimensionali non sono supportati in JavaScript"},
+            {"incorrectAnswer": "Un array è una variabile che può contenere solo un tipo di dato"}
+        ]
+    },
+    {
+        "question": "Cos’è la `this` keyword in JavaScript e come funziona?",
+        "answers": [
+            {"correctAnswer": "Si riferisce all'oggetto che ha invocato la funzione corrente"},
+            {"incorrectAnswer": "Indica un tipo di funzione asincrona"},
+            {"incorrectAnswer": "Si riferisce sempre alla finestra globale"},
+            {"incorrectAnswer": "È utilizzata per definire classi di oggetti"}
+        ]
+    },
+    {
+        "question": "Cosa sono le Promesse in JavaScript?",
+        "answers": [
+            {"correctAnswer": "Oggetti che rappresentano il completamento futuro di un'operazione asincrona"},
+            {"incorrectAnswer": "Funzioni che vengono eseguite solo dopo un certo periodo di tempo"},
+            {"incorrectAnswer": "Metodi per manipolare array in modo sincrono"},
+            {"incorrectAnswer": "Oggetti che gestiscono errori durante l'esecuzione di codice"}
+        ]
+    },
+    {
+        "question": "Cosa fa la funzione `map()` in JavaScript?",
+        "answers": [
+            {"correctAnswer": "Applica una funzione a ogni elemento di un array e restituisce un nuovo array"},
+            {"incorrectAnswer": "Copia gli elementi di un array in un altro array"},
+            {"incorrectAnswer": "Converte un array in un oggetto"},
+            {"incorrectAnswer": "Ordina gli elementi di un array"}
+        ]
+    },
+    {
+        "question": "Cos'è la destructuring assignment in JavaScript?",
+        "answers": [
+            {"correctAnswer": "Un modo per estrarre valori da un array o oggetto e assegnarli a variabili"},
+            {"incorrectAnswer": "Una funzione che crea una nuova istanza di un oggetto"},
+            {"incorrectAnswer": "Un metodo per manipolare il valore di una variabile"},
+            {"incorrectAnswer": "Un tipo di ciclo che esplora un array"}
+        ]
+    },
+    {
+        "question": "Cos’è l'event bubbling in JavaScript?",
+        "answers": [
+            {"correctAnswer": "Un meccanismo che permette a un evento di propagarsi dai figli ai genitori nel DOM"},
+            {"incorrectAnswer": "Un tipo di errore che interrompe l'esecuzione di una funzione"},
+            {"incorrectAnswer": "Una proprietà CSS per gestire il flusso degli eventi"},
+            {"incorrectAnswer": "Un metodo per gestire l'asincronia nelle funzioni"}
+        ]
+    },
+    {
+        "question": "Cos’è l'async/await in JavaScript?",
+        "answers": [
+            {"correctAnswer": "Un modo per scrivere codice asincrono in modo sincrono"},
+            {"incorrectAnswer": "Un metodo per gestire errori in modo sincrono"},
+            {"incorrectAnswer": "Un tipo di array che gestisce valori asincroni"},
+            {"incorrectAnswer": "Un costrutto che permette la sincronizzazione dei cicli"}
+        ]
+    },
+    {
+        "question": "Cos’è un oggetto in JavaScript?",
+        "answers": [
+            {"correctAnswer": "Una collezione di coppie chiave-valore"},
+            {"incorrectAnswer": "Un tipo di array che memorizza solo numeri"},
+            {"incorrectAnswer": "Una funzione che restituisce un valore"},
+            {"incorrectAnswer": "Un tipo di variabile che può contenere solo stringhe"}
+        ]
+    },
+    {
+        "question": "Cos’è TypeScript e perché è utile?",
+        "answers": [
+            {"correctAnswer": "TypeScript è un superset di JavaScript che aggiunge tipi statici al linguaggio"},
+            {"incorrectAnswer": "TypeScript è una libreria per la gestione degli eventi"},
+            {"incorrectAnswer": "TypeScript è un framework per applicazioni web"},
+            {"incorrectAnswer": "TypeScript è un sistema di gestione delle risorse"}
+        ]
+    },
+    {
+        "question": "Cosa sono le interfacce in TypeScript?",
+        "answers": [
+            {"correctAnswer": "Le interfacce definiscono la forma di un oggetto o di una classe"},
+            {"incorrectAnswer": "Le interfacce sono una versione semplificata delle classi"},
+            {"incorrectAnswer": "Le interfacce sono metodi di gestione degli errori"},
+            {"incorrectAnswer": "Le interfacce sono utilizzate per la manipolazione del DOM"}
+        ]
+    },
+    {
+        "question": "Cos’è un tipo `any` in TypeScript?",
+        "answers": [
+            {"correctAnswer": "Il tipo che può rappresentare qualsiasi valore, senza restrizioni"},
+            {"incorrectAnswer": "Un tipo che indica un valore numerico"},
+            {"incorrectAnswer": "Un tipo che si usa solo per variabili booleane"},
+            {"incorrectAnswer": "Un tipo che si usa solo per funzioni"}
+        ]
+    },
+    {
+        "question": "Cos’è una classe in TypeScript?",
+        "answers": [
+            {"correctAnswer": "Una struttura che definisce oggetti con proprietà e metodi"},
+            {"incorrectAnswer": "Un metodo che manipola variabili"},
+            {"incorrectAnswer": "Una variabile che contiene un array"},
+            {"incorrectAnswer": "Un tipo di array per la gestione dei dati"}
+        ]
+    },
+    {
+        "question": "Cos’è un tipo `enum` in TypeScript?",
+        "answers": [
+            {"correctAnswer": "Un tipo che definisce un insieme di costanti numeriche o stringhe"},
+            {"incorrectAnswer": "Un tipo che permette di gestire i cicli"},
+            {"incorrectAnswer": "Un tipo che descrive l'interfaccia di una funzione"},
+            {"incorrectAnswer": "Un tipo per la gestione degli errori"}
+        ]
+    },
+    {
+        "question": "Come si dichiara una variabile con un tipo specifico in TypeScript?",
+        "answers": [
+            {"correctAnswer": "Usando la sintassi `let nome: tipo`"},
+            {"incorrectAnswer": "Usando la sintassi `let nome = tipo`"},
+            {"incorrectAnswer": "Usando la sintassi `var nome : tipo`"},
+            {"incorrectAnswer": "Usando la sintassi `let tipo(nome)`"}
+        ]
+    },
+    {
+        "question": "Cos’è un generico in TypeScript?",
+        "answers": [
+            {"correctAnswer": "Un tipo che permette di creare funzioni, classi o interfacce riutilizzabili con tipi flessibili"},
+            {"incorrectAnswer": "Un tipo che definisce solo un set di dati numerici"},
+            {"incorrectAnswer": "Un tipo che si utilizza per la gestione delle classi"},
+            {"incorrectAnswer": "Un tipo che viene utilizzato per la gestione degli array"}
+        ]
+    },
+    {
+        "question": "Cos’è una funzione `arrow` in TypeScript?",
+        "answers": [
+            {"correctAnswer": "Una funzione compatta con una sintassi breve, utilizzando `() => {}`"},
+            {"incorrectAnswer": "Una funzione che definisce un tipo di array"},
+            {"incorrectAnswer": "Una funzione che restituisce un oggetto JSON"},
+            {"incorrectAnswer": "Una funzione per creare un nuovo tipo di variabile"}
+        ]
+    },
+    {
+        "question": "Cos’è il type assertion in TypeScript?",
+        "answers": [
+            {"correctAnswer": "Un modo per dire al compilatore di trattare un valore come un tipo specifico"},
+            {"incorrectAnswer": "Un tipo di dichiarazione che protegge da errori"},
+            {"incorrectAnswer": "Una funzione che assegna valori statici alle variabili"},
+            {"incorrectAnswer": "Una funzione che converte un tipo in una stringa"}
+        ]
+    },
+    {
+        "question": "Cos’è la `readonly` in TypeScript?",
+        "answers": [
+            {"correctAnswer": "Una parola chiave che impedisce la modifica di una proprietà"},
+            {"incorrectAnswer": "Un tipo che impone la modifica dei dati"},
+            {"incorrectAnswer": "Un tipo che converte i numeri in valori immutabili"},
+            {"incorrectAnswer": "Una proprietà che gestisce la sicurezza dei dati"}
+        ]
+    },
+    {
+        "question": "Cos'è Angular?",
+        "answers": [
+            {"correctAnswer": "Angular è un framework per applicazioni web basato su TypeScript"},
+            {"incorrectAnswer": "Angular è una libreria per la gestione degli eventi"},
+            {"incorrectAnswer": "Angular è un linguaggio di programmazione"},
+            {"incorrectAnswer": "Angular è un database per applicazioni web"}
+        ]
+    },
+    {
+        "question": "Cosa sono i componenti in Angular?",
+        "answers": [
+            {"correctAnswer": "I componenti sono blocchi di codice che gestiscono la logica e la vista in Angular"},
+            {"incorrectAnswer": "I componenti sono variabili globali che memorizzano i dati"},
+            {"incorrectAnswer": "I componenti sono file di configurazione per Angular"},
+            {"incorrectAnswer": "I componenti sono funzioni che eseguono codice lato server"}
+        ]
+    },
+    {
+        "question": "Cos’è il routing in Angular?",
+        "answers": [
+            {"correctAnswer": "Il routing è il meccanismo che consente di navigare tra le pagine di un'applicazione Angular"},
+            {"incorrectAnswer": "Il routing è una libreria per gestire le animazioni"},
+            {"incorrectAnswer": "Il routing è una funzione che gestisce il layout delle pagine"},
+            {"incorrectAnswer": "Il routing è un metodo per collegare i database con il frontend"}
+        ]
+    },
+    {
+        "question": "Come si dichiara un modulo in Angular?",
+        "answers": [
+            {"correctAnswer": "Un modulo si dichiara utilizzando il decoratore `@NgModule`"},
+            {"incorrectAnswer": "Un modulo si dichiara utilizzando la parola chiave `module`"},
+            {"incorrectAnswer": "Un modulo si dichiara dentro un componente"},
+            {"incorrectAnswer": "Un modulo è una funzione che restituisce una promessa"}
+        ]
+    },
+    {
+        "question": "Cos'è la Dependency Injection in Angular?",
+        "answers": [
+            {"correctAnswer": "La Dependency Injection è un pattern che permette di iniettare i servizi nei componenti"},
+            {"incorrectAnswer": "La Dependency Injection è un metodo per proteggere le route"},
+            {"incorrectAnswer": "La Dependency Injection è un tipo di routing per la gestione dei dati"},
+            {"incorrectAnswer": "La Dependency Injection è una libreria per il controllo degli errori"}
+        ]
+    },
+    {
+        "question": "Cos'è un servizio in Angular?",
+        "answers": [
+            {"correctAnswer": "Un servizio è una classe che gestisce la logica di business e viene iniettato nei componenti"},
+            {"incorrectAnswer": "Un servizio è una funzione che manipola i dati nel backend"},
+            {"incorrectAnswer": "Un servizio è un componente che gestisce il layout"},
+            {"incorrectAnswer": "Un servizio è una libreria di componenti preconfigurati"}
+        ]
+    },
+    {
+        "question": "Cos'è un pipe in Angular?",
+        "answers": [
+            {"correctAnswer": "Un pipe è una funzione che trasforma i dati prima che vengano visualizzati nel template"},
+            {"incorrectAnswer": "Un pipe è un metodo per navigare tra i componenti"},
+            {"incorrectAnswer": "Un pipe è una libreria per il controllo degli errori"},
+            {"incorrectAnswer": "Un pipe è un tipo di servizio per l'autenticazione"}
+        ]
+    },
+    {
+        "question": "Cos'è un ciclo di vita del componente in Angular?",
+        "answers": [
+            {"correctAnswer": "Il ciclo di vita descrive le fasi dalla creazione alla distruzione di un componente"},
+            {"incorrectAnswer": "Il ciclo di vita è una funzione che aggiorna dinamicamente i dati"},
+            {"incorrectAnswer": "Il ciclo di vita è un tipo di direttiva che gestisce l'animazione"},
+            {"incorrectAnswer": "Il ciclo di vita è una configurazione per la gestione degli eventi"}
+        ]
+    },
+    {
+        "question": "Cos'è un modulo lazy loading in Angular?",
+        "answers": [
+            {"correctAnswer": "Il lazy loading carica i moduli solo quando sono necessari, migliorando le performance"},
+            {"incorrectAnswer": "Il lazy loading è un metodo per ottimizzare le immagini nelle pagine web"},
+            {"incorrectAnswer": "Il lazy loading è un tipo di autenticazione"},
+            {"incorrectAnswer": "Il lazy loading è una tecnica per la gestione del ciclo di vita dei componenti"}
+        ]
+    },
+    {
+        "question": "Cos’è un guard in Angular?",
+        "answers": [
+            {"correctAnswer": "Un guard è una funzione che protegge le route, impedendo la navigazione non autorizzata"},
+            {"incorrectAnswer": "Un guard è un componente per la gestione degli errori"},
+            {"incorrectAnswer": "Un guard è una funzione per ottimizzare il caricamento delle pagine"},
+            {"incorrectAnswer": "Un guard è un modulo per la gestione dei dati di sessione"}
+        ]
+    },
+    {
+        "question": "Cos’è `ngIf` in Angular?",
+        "answers": [
+            {"correctAnswer": "`ngIf` è una direttiva che rende un elemento del DOM condizionale, basata su una condizione boolean"},
+            {"incorrectAnswer": "`ngIf` è una funzione per eseguire cicli di iterazione"},
+            {"incorrectAnswer": "`ngIf` è un tipo di servizio che gestisce gli eventi"},
+            {"incorrectAnswer": "`ngIf` è una libreria per il controllo degli errori"}
+        ]
+    },
+    {
+        "question": "Cos’è `ngFor` in Angular?",
+        "answers": [
+            {"correctAnswer": "`ngFor` è una direttiva che esegue un ciclo di iterazione sugli elementi di un array o di un oggetto"},
+            {"incorrectAnswer": "`ngFor` è un metodo per gestire la navigazione tra le pagine"},
+            {"incorrectAnswer": "`ngFor` è una funzione per ottimizzare le performance del DOM"},
+            {"incorrectAnswer": "`ngFor` è una libreria per la gestione dei dati"}
+        ]
+    },
+    {
+        "question": "Cos’è la direttiva `ngClass` in Angular?",
+        "answers": [
+            {"correctAnswer": "`ngClass` è una direttiva che aggiunge o rimuove classi CSS dinamicamente"},
+            {"incorrectAnswer": "`ngClass` è una funzione per gestire la logica di routing"},
+            {"incorrectAnswer": "`ngClass` è una libreria per ottimizzare le immagini"},
+            {"incorrectAnswer": "`ngClass` è un metodo di validazione delle form"}
+        ]
+    },
+    {
+        "question": "Come si definisce una route in Angular?",
+        "answers": [
+            {"correctAnswer": "Una route si definisce nel modulo di routing utilizzando il metodo `RouterModule.forRoot()`"},
+            {"incorrectAnswer": "Una route si definisce nel componente utilizzando la proprietà `route`"},
+            {"incorrectAnswer": "Una route si definisce usando `ngRoute`"},
+            {"incorrectAnswer": "Una route si definisce nel file di configurazione del server"}
+        ]
+    },
+    {
+        "question": "Cos’è un resolver in Angular?",
+        "answers": [
+            {"correctAnswer": "Un resolver è una funzione che carica i dati prima che la route venga attivata"},
+            {"incorrectAnswer": "Un resolver è un tipo di servizio per la gestione degli errori"},
+            {"incorrectAnswer": "Un resolver è una libreria per la gestione della logica di business"},
+            {"incorrectAnswer": "Un resolver è una funzione che gestisce l’autenticazione"}
+        ]
+    },
+    {
+        "question": "Cos’è un `observable` in Angular?",
+        "answers": [
+            {"correctAnswer": "Un `observable` è un oggetto che permette di gestire flussi di dati asincroni"},
+            {"incorrectAnswer": "Un `observable` è un tipo di direttiva per il binding dei dati"},
+            {"incorrectAnswer": "Un `observable` è un tipo di servizio per la gestione delle immagini"},
+            {"incorrectAnswer": "Un `observable` è un metodo per gestire i componenti"}
+        ]
+    },
+    {
+        "question": "Cos’è `ngModel` in Angular?",
+        "answers": [
+            {"correctAnswer": "`ngModel` è una direttiva che permette il two-way data binding tra il template e il componente"},
+            {"incorrectAnswer": "`ngModel` è un tipo di servizio per gestire il ciclo di vita dei componenti"},
+            {"incorrectAnswer": "`ngModel` è un metodo per ottimizzare la navigazione"},
+            {"incorrectAnswer": "`ngModel` è una libreria per la gestione delle immagini"}
+        ]
+    },
+    {
+        "question": "Cos’è un `HttpClient` in Angular?",
+        "answers": [
+            {"correctAnswer": "Il `HttpClient` è un servizio che consente di fare richieste HTTP in un'applicazione Angular"},
+            {"incorrectAnswer": "Il `HttpClient` è una libreria per gestire la logica di routing"},
+            {"incorrectAnswer": "Il `HttpClient` è una direttiva per il two-way binding"},
+            {"incorrectAnswer": "Il `HttpClient` è una funzione per gestire i dati locali"}
+        ]
+    },
+    {
+        "question": "Cos'è Node.js?",
+        "answers": [
+            {"correctAnswer": "Node.js è un runtime JavaScript basato su V8 che consente di eseguire JavaScript lato server"},
+            {"incorrectAnswer": "Node.js è un framework per la gestione delle interfacce utente"},
+            {"incorrectAnswer": "Node.js è un database NoSQL"},
+            {"incorrectAnswer": "Node.js è un sistema di gestione dei pacchetti"}
+        ]
+    },
+    {
+        "question": "Cos'è il modulo `fs` in Node.js?",
+        "answers": [
+            {"correctAnswer": "Il modulo `fs` fornisce funzionalità per l'interazione con il file system"},
+            {"incorrectAnswer": "Il modulo `fs` gestisce le operazioni asincrone"},
+            {"incorrectAnswer": "Il modulo `fs` permette di gestire la sicurezza dei file"},
+            {"incorrectAnswer": "Il modulo `fs` serve per la gestione delle immagini"}
+        ]
+    },
+    {
+        "question": "Come si installa un pacchetto con npm in Node.js?",
+        "answers": [
+            {"correctAnswer": "Usando il comando `npm install nome-pacchetto`"},
+            {"incorrectAnswer": "Usando il comando `npm get nome-pacchetto`"},
+            {"incorrectAnswer": "Usando il comando `npm add nome-pacchetto`"},
+            {"incorrectAnswer": "Usando il comando `npm download nome-pacchetto`"}
+        ]
+    },
+    {
+        "question": "Cos'è un callback in Node.js?",
+        "answers": [
+            {"correctAnswer": "Un callback è una funzione passata come argomento a un'altra funzione che viene eseguita quando l'operazione asincrona è completata"},
+            {"incorrectAnswer": "Un callback è una variabile che memorizza l'esito di una funzione"},
+            {"incorrectAnswer": "Un callback è un modulo che gestisce gli errori"},
+            {"incorrectAnswer": "Un callback è una libreria per il routing"}
+        ]
+    },
+    {
+        "question": "Cos'è Express in Node.js?",
+        "answers": [
+            {"correctAnswer": "Express è un framework web minimale per Node.js, utile per costruire applicazioni web e API"},
+            {"incorrectAnswer": "Express è un modulo per la gestione delle operazioni sui file"},
+            {"incorrectAnswer": "Express è un sistema di gestione dei database"},
+            {"incorrectAnswer": "Express è una libreria per la gestione degli eventi"}
+        ]
+    },
+    {
+        "question": "Come si crea un server HTTP con Node.js?",
+        "answers": [
+            {"correctAnswer": "Utilizzando il modulo `http` con `http.createServer()`"},
+            {"incorrectAnswer": "Utilizzando il modulo `fs` con `fs.createServer()`"},
+            {"incorrectAnswer": "Utilizzando il modulo `express` con `express.createServer()`"},
+            {"incorrectAnswer": "Utilizzando il modulo `path` con `path.createServer()`"}
+        ]
+    },
+    {
+        "question": "Cos'è `npm start` in un'applicazione Node.js?",
+        "answers": [
+            {"correctAnswer": "`npm start` esegue il comando definito nella sezione `start` del file `package.json`"},
+            {"incorrectAnswer": "`npm start` aggiorna automaticamente i pacchetti del progetto"},
+            {"incorrectAnswer": "`npm start` serve per installare le dipendenze del progetto"},
+            {"incorrectAnswer": "`npm start` esegue una funzione di debugging"}
+        ]
+    },
+    {
+        "question": "Cos'è un modulo in Node.js?",
+        "answers": [
+            {"correctAnswer": "Un modulo è un file JavaScript che contiene codice riutilizzabile in altre parti dell'applicazione"},
+            {"incorrectAnswer": "Un modulo è una variabile che definisce una funzione globale"},
+            {"incorrectAnswer": "Un modulo è un tipo di servizio per la gestione degli eventi"},
+            {"incorrectAnswer": "Un modulo è un tipo di file che gestisce la logica lato client"}
+        ]
+    },
+    {
+        "question": "Come si gestisce un errore in Node.js?",
+        "answers": [
+            {"correctAnswer": "Utilizzando la gestione delle eccezioni con `try...catch` o tramite il primo parametro della callback"},
+            {"incorrectAnswer": "Utilizzando il comando `npm error`"},
+            {"incorrectAnswer": "Utilizzando una funzione di logging in ogni callback"},
+            {"incorrectAnswer": "Utilizzando la funzione `errorHandling()`"}
+        ]
+    },
+    {
+        "question": "Cos'è il modulo `path` in Node.js?",
+        "answers": [
+            {"correctAnswer": "Il modulo `path` fornisce utilità per lavorare con i percorsi di file e directory"},
+            {"incorrectAnswer": "Il modulo `path` serve per la gestione delle richieste HTTP"},
+            {"incorrectAnswer": "Il modulo `path` è utilizzato per la gestione dei dati JSON"},
+            {"incorrectAnswer": "Il modulo `path` è usato per la creazione di nuove cartelle"}
+        ]
+    },
+    {
+        "question": "Cos'è Git?",
+        "answers": [
+            {"correctAnswer": "Git è un sistema di controllo versione distribuito per tracciare le modifiche nel codice sorgente"},
+            {"incorrectAnswer": "Git è un linguaggio di programmazione"},
+            {"incorrectAnswer": "Git è una libreria per la gestione degli eventi"},
+            {"incorrectAnswer": "Git è un sistema di gestione del database"}
+        ]
+    },
+    {
+        "question": "Come si inizializza un repository Git?",
+        "answers": [
+            {"correctAnswer": "Usando il comando `git init`"},
+            {"incorrectAnswer": "Usando il comando `git create`"},
+            {"incorrectAnswer": "Usando il comando `git start`"},
+            {"incorrectAnswer": "Usando il comando `git setup`"}
+        ]
+    },
+    {
+        "question": "Come si aggiungono i file al repository in Git?",
+        "answers": [
+            {"correctAnswer": "Usando il comando `git add <file>`"},
+            {"incorrectAnswer": "Usando il comando `git push <file>`"},
+            {"incorrectAnswer": "Usando il comando `git commit <file>`"},
+            {"incorrectAnswer": "Usando il comando `git include <file>`"}
+        ]
+    },
+    {
+        "question": "Come si fa un commit in Git?",
+        "answers": [
+            {"correctAnswer": "Usando il comando `git commit -m 'messaggio'`"},
+            {"incorrectAnswer": "Usando il comando `git push -m 'messaggio'`"},
+            {"incorrectAnswer": "Usando il comando `git save -m 'messaggio'`"},
+            {"incorrectAnswer": "Usando il comando `git log -m 'messaggio'`"}
+        ]
+    },
+    {
+        "question": "Cos'è un branch in Git?",
+        "answers": [
+            {"correctAnswer": "Un branch è una versione separata del codice che permette di sviluppare funzionalità in parallelo"},
+            {"incorrectAnswer": "Un branch è un tipo di commit che registra lo stato finale di un progetto"},
+            {"incorrectAnswer": "Un branch è una configurazione del server di Git"},
+            {"incorrectAnswer": "Un branch è un tipo di file di configurazione"}
+        ]
+    },
+    {
+        "question": "Come si visualizzano i branch in Git?",
+        "answers": [
+            {"correctAnswer": "Usando il comando `git branch`"},
+            {"incorrectAnswer": "Usando il comando `git show branches`"},
+            {"incorrectAnswer": "Usando il comando `git list`"},
+            {"incorrectAnswer": "Usando il comando `git view branches`"}
+        ]
+    },
+    {
+        "question": "Come si uniscono due branch in Git?",
+        "answers": [
+            {"correctAnswer": "Usando il comando `git merge <branch>`"},
+            {"incorrectAnswer": "Usando il comando `git combine <branch>`"},
+            {"incorrectAnswer": "Usando il comando `git unite <branch>`"},
+            {"incorrectAnswer": "Usando il comando `git join <branch>`"}
+        ]
+    },
+    {
+        "question": "Cos'è il comando `git push`?",
+        "answers": [
+            {"correctAnswer": "`git push` invia le modifiche locali al repository remoto"},
+            {"incorrectAnswer": "`git push` crea una nuova versione di un file"},
+            {"incorrectAnswer": "`git push` elimina un file dal repository remoto"},
+            {"incorrectAnswer": "`git push` crea un nuovo branch nel repository remoto"}
+        ]
+    },
+    {
+        "question": "Cos'è il comando `git pull`?",
+        "answers": [
+            {"correctAnswer": "`git pull` scarica le modifiche dal repository remoto al tuo repository locale"},
+            {"incorrectAnswer": "`git pull` carica le modifiche locali nel repository remoto"},
+            {"incorrectAnswer": "`git pull` elimina le modifiche locali"},
+            {"incorrectAnswer": "`git pull` unisce due branch locali"}
+        ]
+    },
+    {
+        "question": "Cos'è il comando `git clone`?",
+        "answers": [
+            {"correctAnswer": "`git clone` crea una copia del repository remoto nel tuo sistema locale"},
+            {"incorrectAnswer": "`git clone` invia un file a un altro repository"},
+            {"incorrectAnswer": "`git clone` cancella i file dal repository remoto"},
+            {"incorrectAnswer": "`git clone` crea un nuovo branch"}
+        ]
+    },
+    {
+        "question": "Cos'è RxJS?",
+        "answers": [
+            {"correctAnswer": "RxJS è una libreria per la programmazione reattiva che utilizza gli Observable per gestire flussi asincroni"},
+            {"incorrectAnswer": "RxJS è una libreria per la gestione dei componenti Angular"},
+            {"incorrectAnswer": "RxJS è una libreria per la gestione dei dati JSON"},
+            {"incorrectAnswer": "RxJS è un sistema di gestione delle route in Angular"}
+        ]
+    },
+    {
+        "question": "Cos’è un Observable in RxJS?",
+        "answers": [
+            {"correctAnswer": "Un Observable è una rappresentazione di un flusso di eventi che può essere osservato e manipolato"},
+            {"incorrectAnswer": "Un Observable è un tipo di variabile per la gestione delle risorse"},
+            {"incorrectAnswer": "Un Observable è un ciclo di iterazione sugli array"},
+            {"incorrectAnswer": "Un Observable è una funzione che gestisce gli errori in modo sincrono"}
+        ]
+    },
+    {
+        "question": "Cos’è un Observer in RxJS?",
+        "answers": [
+            {"correctAnswer": "Un Observer è un oggetto che riceve notifiche da un Observable e reagisce agli eventi"},
+            {"incorrectAnswer": "Un Observer è un tipo di operatore che manipola i dati"},
+            {"incorrectAnswer": "Un Observer è un modulo che gestisce la comunicazione tra componenti"},
+            {"incorrectAnswer": "Un Observer è un metodo di gestione delle animazioni"}
+        ]
+    },
+    {
+        "question": "Cos'è un operatore in RxJS?",
+        "answers": [
+            {"correctAnswer": "Un operatore è una funzione che manipola i flussi di dati provenienti dagli Observable"},
+            {"incorrectAnswer": "Un operatore è un tipo di evento che gestisce la sincronizzazione dei dati"},
+            {"incorrectAnswer": "Un operatore è una variabile che definisce un flusso di eventi"},
+            {"incorrectAnswer": "Un operatore è un tipo di evento che manipola il DOM"}
+        ]
+    },
+    {
+        "question": "Cosa fa l'operatore `map()` in RxJS?",
+        "answers": [
+            {"correctAnswer": "L'operatore `map()` trasforma ogni valore emesso dall'Observable in un nuovo valore"},
+            {"incorrectAnswer": "L'operatore `map()` filtra i valori in base a una condizione"},
+            {"incorrectAnswer": "L'operatore `map()` unisce i flussi di dati di più Observable"},
+            {"incorrectAnswer": "L'operatore `map()` raccoglie i valori in un array"}
+        ]
+    },
+    {
+        "question": "Cos’è l'operatore `merge()` in RxJS?",
+        "answers": [
+            {"correctAnswer": "L'operatore `merge()` combina più Observable in uno solo, emettendo i loro valori simultaneamente"},
+            {"incorrectAnswer": "L'operatore `merge()` esegue un ciclo sugli elementi di un array"},
+            {"incorrectAnswer": "L'operatore `merge()` filtra i valori duplicati dagli Observable"},
+            {"incorrectAnswer": "L'operatore `merge()` permette di applicare filtri ai dati ricevuti"}
+        ]
+    },
+    {
+        "question": "Cosa fa l'operatore `filter()` in RxJS?",
+        "answers": [
+            {"correctAnswer": "L'operatore `filter()` emette solo i valori che soddisfano una condizione specificata"},
+            {"incorrectAnswer": "L'operatore `filter()` unisce i valori di più Observable"},
+            {"incorrectAnswer": "L'operatore `filter()` trasforma i valori in un nuovo formato"},
+            {"incorrectAnswer": "L'operatore `filter()` interrompe il flusso di eventi"}
+        ]
+    },
+    {
+        "question": "Cos'è l'operatore `take()` in RxJS?",
+        "answers": [
+            {"correctAnswer": "L'operatore `take()` emette solo i primi n valori emessi dall'Observable"},
+            {"incorrectAnswer": "L'operatore `take()` crea una nuova copia dell'Observable"},
+            {"incorrectAnswer": "L'operatore `take()` converte i valori in un altro tipo di dato"},
+            {"incorrectAnswer": "L'operatore `take()` esegue una funzione per ogni valore emesso"}
+        ]
+    },
+    {
+        "question": "Cosa fa l'operatore `concat()` in RxJS?",
+        "answers": [
+            {"correctAnswer": "L'operatore `concat()` unisce gli Observable emettendo i valori di uno dopo l'altro in sequenza"},
+            {"incorrectAnswer": "L'operatore `concat()` esegue un ciclo su ogni valore emesso"},
+            {"incorrectAnswer": "L'operatore `concat()` converte un array di valori in un Observable"},
+            {"incorrectAnswer": "L'operatore `concat()` esegue il merge dei dati di più Observable"}
+        ]
+    },
+    {
+        "question": "Cos’è l'operatore `debounceTime()` in RxJS?",
+        "answers": [
+            {"correctAnswer": "L'operatore `debounceTime()` ritarda l'emissione dei valori finché non è passato un certo intervallo di tempo"},
+            {"incorrectAnswer": "L'operatore `debounceTime()` applica una condizione di filtro sui valori"},
+            {"incorrectAnswer": "L'operatore `debounceTime()` accumula tutti i valori emessi"},
+            {"incorrectAnswer": "L'operatore `debounceTime()` unisce più flussi di dati in uno solo"}
+        ]
+    },
+    {
+        "question": "Cos'è un Signal?",
+        "answers": [
+            {"correctAnswer": "Un Signal è un meccanismo per gestire i flussi di eventi in modo reattivo"},
+            {"incorrectAnswer": "Un Signal è una variabile che memorizza l'output di una funzione"},
+            {"incorrectAnswer": "Un Signal è un tipo di modulo per il caricamento dei dati"},
+            {"incorrectAnswer": "Un Signal è un tipo di operatore in RxJS"}
+        ]
+    },
+    {
+        "question": "Qual è la differenza tra un Signal e un Observable?",
+        "answers": [
+            {"correctAnswer": "Un Signal è un flusso di eventi che può essere sottoscritto, ma non emette valori più di una volta"},
+            {"incorrectAnswer": "Un Signal è un tipo di Observable che gestisce gli errori"},
+            {"incorrectAnswer": "Un Signal è un'implementazione semplificata di RxJS"},
+            {"incorrectAnswer": "Un Signal è una funzione che sincronizza eventi tra più componenti"}
+        ]
+    },
+    {
+        "question": "Come si crea un Signal?",
+        "answers": [
+            {"correctAnswer": "Un Signal si crea usando il costruttore `new Signal()`"},
+            {"incorrectAnswer": "Un Signal si crea usando il costruttore `new Observable()`"},
+            {"incorrectAnswer": "Un Signal si crea definendo un array di eventi"},
+            {"incorrectAnswer": "Un Signal si crea utilizzando una funzione di callback"}
+        ]
+    },
+    {
+        "question": "Come si sottoscrive un Signal?",
+        "answers": [
+            {"correctAnswer": "Si usa il metodo `.subscribe()` su un Signal"},
+            {"incorrectAnswer": "Si usa il metodo `.then()` su un Signal"},
+            {"incorrectAnswer": "Si usa il metodo `.listen()` su un Signal"},
+            {"incorrectAnswer": "Si usa il metodo `.emit()` su un Signal"}
+        ]
+    },
+    {
+        "question": "Cos’è un SignalHandler?",
+        "answers": [
+            {"correctAnswer": "Un SignalHandler è una funzione che gestisce i dati emessi da un Signal"},
+            {"incorrectAnswer": "Un SignalHandler è una libreria per la gestione dei flussi di dati"},
+            {"incorrectAnswer": "Un SignalHandler è un tipo di operatore in RxJS"},
+            {"incorrectAnswer": "Un SignalHandler è un modulo per sincronizzare eventi"}
+        ]
+    },
+    {
+        "question": "Qual è lo scopo principale di un Signal?",
+        "answers": [
+            {"correctAnswer": "Gestire in modo reattivo i flussi di eventi e dati tra componenti"},
+            {"incorrectAnswer": "Memorizzare i dati in un database"},
+            {"incorrectAnswer": "Eseguire operazioni matematiche su array di dati"},
+            {"incorrectAnswer": "Rendere sincrone tutte le chiamate asincrone"}
+        ]
+    },
+    {
+        "question": "Cos’è la differenza tra un Signal e un EventEmitter?",
+        "answers": [
+            {"correctAnswer": "Un Signal è un tipo di flusso reattivo mentre un EventEmitter è un pattern per emettere eventi"},
+            {"incorrectAnswer": "Un Signal è un tipo di variabile che gestisce eventi"},
+            {"incorrectAnswer": "Un Signal è una funzione di callback per gli eventi"},
+            {"incorrectAnswer": "Un Signal è un modulo che sincronizza eventi tra componenti"}
+        ]
+    },
+    {
+        "question": "Come si cancella un Signal?",
+        "answers": [
+            {"correctAnswer": "Un Signal può essere cancellato usando il metodo `.dispose()`"},
+            {"incorrectAnswer": "Un Signal può essere cancellato usando `.unsubscribe()`"},
+            {"incorrectAnswer": "Un Signal può essere cancellato usando `.clear()`"},
+            {"incorrectAnswer": "Un Signal non può essere cancellato una volta creato"}
+        ]
+    },
+    {
+        "question": "Cos’è un `SignalValue`?",
+        "answers": [
+            {"correctAnswer": "Il `SignalValue` è il valore emesso da un Signal"},
+            {"incorrectAnswer": "Il `SignalValue` è un tipo di oggetto che manipola i dati"},
+            {"incorrectAnswer": "Il `SignalValue` è una funzione che filtra i dati"},
+            {"incorrectAnswer": "Il `SignalValue` è una libreria per la gestione dei flussi di eventi"}
+        ]
+    },
+    {
+        "question": "Cosa succede quando si emette un Signal?",
+        "answers": [
+            {"correctAnswer": "Quando si emette un Signal, i suoi osservatori vengono notificati con il valore del Signal"},
+            {"incorrectAnswer": "Quando si emette un Signal, l'applicazione viene riavviata"},
+            {"incorrectAnswer": "Quando si emette un Signal, vengono eseguiti automaticamente i metodi di callback"},
+            {"incorrectAnswer": "Quando si emette un Signal, viene aggiornato il database"}
+        ]
+    },
+    {
+        "question": "Cos'è una REST API?",
+        "answers": [
+            {"correctAnswer": "Una REST API è un'architettura di servizi web che utilizza HTTP per gestire le richieste e risposte tra client e server"},
+            {"incorrectAnswer": "Una REST API è un linguaggio di programmazione per interagire con il database"},
+            {"incorrectAnswer": "Una REST API è un tipo di framework per la gestione degli eventi"},
+            {"incorrectAnswer": "Una REST API è una libreria per la gestione delle immagini"}
+        ]
+    },
+    {
+        "question": "Quali sono i metodi HTTP comunemente utilizzati in una REST API?",
+        "answers": [
+            {"correctAnswer": "GET, POST, PUT, DELETE"},
+            {"incorrectAnswer": "SELECT, INSERT, UPDATE, DELETE"},
+            {"incorrectAnswer": "CONNECT, DISCONNECT, RELOAD, LOAD"},
+            {"incorrectAnswer": "OPEN, CLOSE, SEND, RECEIVE"}
+        ]
+    },
+    {
+        "question": "Cos'è un endpoint in una REST API?",
+        "answers": [
+            {"correctAnswer": "Un endpoint è un URL che rappresenta una risorsa o una collezione di risorse in un'API"},
+            {"incorrectAnswer": "Un endpoint è una funzione che gestisce le operazioni di database"},
+            {"incorrectAnswer": "Un endpoint è un tipo di errore che viene generato nell'API"},
+            {"incorrectAnswer": "Un endpoint è una libreria che gestisce la sicurezza dell'API"}
+        ]
+    },
+    {
+        "question": "Cosa rappresenta il codice di stato HTTP 200?",
+        "answers": [
+            {"correctAnswer": "Il codice di stato 200 indica una richiesta riuscita con successo"},
+            {"incorrectAnswer": "Il codice di stato 200 indica un errore del server"},
+            {"incorrectAnswer": "Il codice di stato 200 indica un problema di autorizzazione"},
+            {"incorrectAnswer": "Il codice di stato 200 indica che la richiesta è stata ricevuta ma non ancora elaborata"}
+        ]
+    },
+    {
+        "question": "Cosa fa il metodo `GET` in una REST API?",
+        "answers": [
+            {"correctAnswer": "Il metodo `GET` viene utilizzato per recuperare i dati da una risorsa"},
+            {"incorrectAnswer": "Il metodo `GET` viene utilizzato per creare una nuova risorsa"},
+            {"incorrectAnswer": "Il metodo `GET` viene utilizzato per aggiornare una risorsa esistente"},
+            {"incorrectAnswer": "Il metodo `GET` viene utilizzato per eliminare una risorsa"}
+        ]
+    },
+    {
+        "question": "Cos'è il metodo `POST` in una REST API?",
+        "answers": [
+            {"correctAnswer": "Il metodo `POST` viene utilizzato per inviare dati al server per creare una nuova risorsa"},
+            {"incorrectAnswer": "Il metodo `POST` viene utilizzato per ottenere dati dal server"},
+            {"incorrectAnswer": "Il metodo `POST` viene utilizzato per eliminare una risorsa dal server"},
+            {"incorrectAnswer": "Il metodo `POST` viene utilizzato per aggiornare una risorsa esistente"}
+        ]
+    },
+    {
+        "question": "Cos'è una richiesta `PUT` in una REST API?",
+        "answers": [
+            {"correctAnswer": "Il metodo `PUT` viene utilizzato per aggiornare una risorsa esistente"},
+            {"incorrectAnswer": "Il metodo `PUT` viene utilizzato per recuperare i dati di una risorsa"},
+            {"incorrectAnswer": "Il metodo `PUT` viene utilizzato per eliminare una risorsa"},
+            {"incorrectAnswer": "Il metodo `PUT` viene utilizzato per creare una nuova risorsa"}
+        ]
+    },
+    {
+        "question": "Cos'è una richiesta `DELETE` in una REST API?",
+        "answers": [
+            {"correctAnswer": "Il metodo `DELETE` viene utilizzato per eliminare una risorsa dal server"},
+            {"incorrectAnswer": "Il metodo `DELETE` viene utilizzato per recuperare i dati di una risorsa"},
+            {"incorrectAnswer": "Il metodo `DELETE` viene utilizzato per aggiornare una risorsa"},
+            {"incorrectAnswer": "Il metodo `DELETE` viene utilizzato per creare una nuova risorsa"}
+        ]
+    },
+    {
+        "question": "Cos'è un body nella richiesta HTTP?",
+        "answers": [
+            {"correctAnswer": "Il body è la parte della richiesta HTTP che contiene i dati da inviare al server"},
+            {"incorrectAnswer": "Il body è la parte della richiesta che contiene l'URL della risorsa"},
+            {"incorrectAnswer": "Il body è la parte della risposta che contiene i dati richiesti"},
+            {"incorrectAnswer": "Il body è una libreria che gestisce le risposte di errore"}
+        ]
+    },
+    {
+        "question": "Cosa sono le intestazioni (headers) in una richiesta HTTP?",
+        "answers": [
+            {"correctAnswer": "Le intestazioni sono metadati che accompagnano una richiesta o risposta HTTP, come il tipo di contenuto o l'autenticazione"},
+            {"incorrectAnswer": "Le intestazioni sono il corpo della risposta HTTP"},
+            {"incorrectAnswer": "Le intestazioni sono gli errori che possono verificarsi durante la richiesta"},
+            {"incorrectAnswer": "Le intestazioni sono una funzione per il controllo della sicurezza"}
+        ]
+    }
+
+
+]

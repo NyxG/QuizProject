@@ -1,0 +1,14 @@
+<div
+  class="answer-option"
+  [ngClass]="{
+    correct: isCorrect() && selectedAnswered(),
+    incorrect: !isCorrect() && selectedAnswered(),
+    disabled: quizService.selectedAnswered()
+  }"
+  (click)="onClick()"
+>
+  <span class="answer-label">{{ letterMapping[answerIndex()] }}</span>
+  <span class="answer-text">{{
+    answerText().incorrectAnswer || answerText().correctAnswer
+  }}</span>
+</div>

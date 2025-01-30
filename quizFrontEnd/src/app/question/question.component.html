@@ -1,0 +1,20 @@
+<div class="question-container">
+  <h2 class="question-title">{{ quizService.currentQuestion().question }}</h2>
+  <h4 class="question-title">
+    Question {{ quizService.indexQuestion() + 1 }}/
+    {{ quizService.questions().length }}
+  </h4>
+  @for (currentQuestionAnswer of quizService.currentQuestion().answers; track
+  $index) {
+
+  <app-answer [answerText]="currentQuestionAnswer" [answerIndex]="$index"
+    >{{ currentQuestionAnswer }}
+  </app-answer>
+
+  }
+  <div class="next-button-container">
+    <button class="next-button" (click)="quizService.goToNextQuestion()">
+      Next
+    </button>
+  </div>
+</div>
